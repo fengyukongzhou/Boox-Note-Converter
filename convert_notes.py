@@ -74,8 +74,8 @@ def parse_and_convert(input_file, output_folder):
                 f.write(f'**批注：** {annotation}\n\n')
 
 def main():
-    input_folder = 'Boox-Note-Converter'
-    output_folder = os.path.join(input_folder, 'output')
+    input_folder = 'input'
+    output_folder = 'output'
 
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
