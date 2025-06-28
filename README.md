@@ -16,15 +16,18 @@
 
 ### 2. 文件结构
 
-请将您的文石笔记 `.txt` 文件放置在 `Boox-Note-Converter` 文件夹内。
+请将您的文石笔记 `.txt` 文件放置在 `Boox-Note-Converter` 文件夹内，或者 `sample_notes` 子文件夹中。
 
 ```
 E:/Cursor-Projects/Boox-Note-Converter/
 ├───output/
+├───sample_notes/
+│   └───sample_note.txt
 ├───convert_notes.py
 └───你的笔记文件.txt
-└───另一个笔记文件.txt
 ```
+
+`sample_notes/sample_note.txt` 是一个示例文件，展示了笔记的预期格式。
 
 ### 3. 运行转换脚本
 
